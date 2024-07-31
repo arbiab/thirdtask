@@ -31,17 +31,22 @@ const Navigator = () =>{
       className="box"
         > <div className='tabs' >
           <TabList onChange={handleChange} aria-label="lab API tabs example"
-         TabIndicatorProps={{ sx: { display: 'none' } }}
        
+         className='border'
           sx ={{
           
             '& button.Mui-selected':{
-              color:'black'
+              color:'black',
+              borderBottom: '2px solid rgb(74, 115, 204)',
             },
             '& .MuiTabs-flexContainer':{
               flexWrap:"wrap",
               maxWidth:'86rem'
-            }
+            },
+           
+             
+          
+     
           }}
           >
            
