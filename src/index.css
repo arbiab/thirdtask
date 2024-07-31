@@ -40,6 +40,11 @@ body {
  font-size: 13px;
   
    }
+   .MuiTabs-indicator {
+    display: none;
+  }
+ 
+  
 
 @media (max-width: 768px) {
   .wrapper {
